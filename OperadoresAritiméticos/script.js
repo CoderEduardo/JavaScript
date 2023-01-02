@@ -10,3 +10,20 @@ document.write('O resultado da multiplicação entre '+num1+' e '+num2+ ' é :' 
 document.write('O módulo entre '+num1+' e '+num2+ ' é :' + (num1%num2) +'<br>')
 document.write('O incremento de '+num1+' é ' + (++num1) +'<br>')
 document.write('O decremento de '+num1+' é ' + (--num1) +'<br>')
+
+/*Atribuição de valores de forma resumida*/
+
+var teste = 10 
+teste += 5
+
+/*Fazendo isso podemos atribuir qualquer valor, apenas mudando o sinal 
+
++=
+-=
+*=
+/=
+%=
+
+*/
+
+document.write(teste)
