@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos de Formulários</title>
+</head>
+<body>
+    <!--O método onfocus ele dispara uma ação quando o foco é transferido para ele-->
+    <!--O método onblur dispara uma ação quando o elemento em si perder o foco-->
+    <input onfocus="console.log('Recebeu o foco')" onblur="console.log('Perdeu o foco')" type="text">
+
+    <!--O método onchange dispara uma ação quando o método é modificado-->
+    <select onchange="console.log('Estado foi modificado')">
+        <option>Selecione</option>
+        <option value="1">Primeira opção</option>
+        <option value="2">Segunda opção</option>
+    </select>
+
+    <script src="script.js"></script>
+</body>
+</html>
