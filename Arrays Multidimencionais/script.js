@@ -1,4 +1,4 @@
-//Arrays Multidimencionais não Arrays que apontam para Array
+//Arrays Multidimencionais são Arrays que apontam para outros Arrays
 var lista_coisas = [] //O primeiro Array que concentra os outros
 
 lista_coisas['frutas'] = [] 
