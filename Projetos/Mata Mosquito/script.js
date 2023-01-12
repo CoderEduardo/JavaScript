@@ -6,8 +6,6 @@ var largura = 0
 function ajustarTamanho() {
     altura = innerHeight
     largura = innerWidth
-    
-    console.log(altura, largura)
 }
 
 ajustarTamanho()
