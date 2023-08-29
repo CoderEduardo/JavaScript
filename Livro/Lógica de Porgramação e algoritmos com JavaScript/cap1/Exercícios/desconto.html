@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desconto da loja</title>
+</head>
+<body>
+    
+    <script>
+
+        let preco = parseFloat(prompt("Digite o valor do produto:"))
+        let aVista = preco - (preco * 0.10) 
+        let parcelado = preco / 3
+
+        document.write(`O valor do produto é de: ${preco}R$, a vista sai por ${aVista}R$, e parcelado em 3x sai por ${parcelado.toFixed(2)}R$ cada parcela`)
+
+    </script>
+
+</body>
+</html>

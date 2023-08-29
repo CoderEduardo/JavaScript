@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular a taxa do Garçom</title>
+</head>
+<body>
+    
+    <script>
+
+        //O algoritmo recebe o valor de jantar, calcula a taxa do garçom e depois soma o total que o cliente vai ter que pagar
+
+        let valorJantar = parseFloat(prompt("Digite o valor do Jantar: "))
+        let taxa = valorJantar * 0.10
+        let total = valorJantar + taxa
+
+        document.write(`O valor do Jantar é de ${valorJantar.toFixed(2)}R$, a taxa do garçom é de 10%, que da o valor de ${taxa.toFixed(2)}R$, e o total a se pagar é de ${total.toFixed(2)}R$`)
+
+    </script>
+
+</body>
+</html>
