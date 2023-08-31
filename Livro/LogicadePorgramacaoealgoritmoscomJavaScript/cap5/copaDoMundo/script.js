@@ -7,7 +7,7 @@ console.log("Programa anos da copa do mundo. Digite 0 para sair")
 
 do {
 
-    let numero = Number(prompt("Digite qual ano você quer saber se foi de copa do mundo: "))
+    let numero = Number(prompt("Digite qual ano você quer saber se foi de copa do mundo: "))     //Declarar o número dentro vai fazer com que fique um loopgins controlado
     let respota = ""
 
     if (numero == 0) {
